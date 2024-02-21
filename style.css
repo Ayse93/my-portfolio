@@ -31,7 +31,7 @@ h1 {
 
 
 p{
-    color:rgb(221, 197, 104);
+    color:rgb(159, 142, 77);
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: medium;
     font-weight: bold;
@@ -51,8 +51,10 @@ div > img {
 
     border-radius: 50%;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left:200px;
+    width: 500px;
+    margin-left: 320px;
+   
 }
 
 
@@ -66,7 +68,7 @@ aside> h3 {
 }
 
 aside {
-    color:rgb(221, 197, 104);
+    color:rgb(159, 142, 77);
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
     text-align: start;
@@ -92,9 +94,23 @@ footer button{
     margin-top: 150px;
     margin-bottom: 20px;
 }
+
+
+footer>nav i {
+   text-align:left;
+   left: 0;
+   padding-top: 150px;
+
+}
+
+footer > nav a:hover{
+    color: antiquewhite;
+   
+}
+
+footer > nav a:link{
+    color: antiquewhite;
+   
+}
+
     
-
-
-
-
-

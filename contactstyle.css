@@ -1,0 +1,67 @@
+body {
+    background-image: url('image.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: rgba(212,213,207,255);
+    text-align: center;
+  }
+
+  h1 {text-align: center;
+     color: rgba(68, 65, 69, 0.881);
+     padding-top: 50px;
+     text-shadow: rgb(108, 103, 96);
+  }
+
+  .cont form {
+      color: rgba(68, 65, 69, 0.881) ;
+      font-size: larger;
+      font-weight: bold;
+
+  }   
+  .cont>form>input {
+    border-radius:  5px; 
+    border-style:groove;
+
+  }
+
+  .cont>form>textarea {
+      border-radius:  5px; 
+      border-style:groove;
+  }
+  
+
+  button {
+      color: rgb(102, 107, 58);
+      font-size: large;
+      border: 0px;
+      box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+      border-radius: 10px;
+      background-color: white;
+      width: 80px;
+  }
+
+  .click:hover {
+   background-color: rgba(68, 65, 69, 0.881);
+   color: white;
+   scale: 1.2;
+   transition: .1s;
+  }
+
+   .click1:hover {
+   background-color: rgba(68, 65, 69, 0.881);
+   color: white;
+   scale: 1.2;
+   transition: .1s;
+   }
+
+
+
+   .end {
+    text-align:left;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    color: rgba(68, 65, 69, 0.881);
+   }
+
+
